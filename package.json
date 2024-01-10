@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "author": "lunjz <lunjz@qq.com>",
+  "name": "create-wtf",
+  "version": "1.0.0",
+  "description": "scaffolding project",
+  "bin": "index.js",
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "type": "module",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "minimist": "^1.2.8",
+    "rollup": "^4.9.4"
+  }
+}
