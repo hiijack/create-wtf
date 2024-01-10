@@ -17,7 +17,8 @@
     "node": "^18.0.0"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://gitee.com/lunjz/create-wtf"
   },
   "type": "module",
   "keywords": [],
