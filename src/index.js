@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url'
 import minimist from 'minimist';
 
-const AllTemplates = ['umi', 'wtf'];
+const AllTemplates = ['umi', 'wtf', 'koa'];
 
 const argvs = minimist(process.argv.slice(2), { string: ['_'] });
 const cwd = process.cwd();
